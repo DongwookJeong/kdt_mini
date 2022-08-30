@@ -1,9 +1,12 @@
+import domStyling from "./style"
+
 export default async function left(leftButton ,rightButton,div, digimon, count){
 
     leftButton.innerHTML = "<"
     leftButton.style.fontSize = "3em"
     leftButton.style.cursor = "pointer"
-
+    console.log(domStyling)
+    
     rightButton.innerHTML = ">"
     rightButton.style.fontSize = "3em"
     rightButton.style.cursor = "pointer"
